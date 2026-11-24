@@ -1,0 +1,30 @@
+# Secrets (never commit these)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+credentials.json
+
+# Agent state
+.claude/
+.codex/
+.cursor/
+.pi/
+
+# Dependencies and virtual environments
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Build output and OS files
+dist/
+build/
+.next/
+out/
+.DS_Store
+*.log

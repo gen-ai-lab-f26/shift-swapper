@@ -1,0 +1,9 @@
+# Settings for your Product Page. You don't need to change anything here.
+markdown: kramdown
+kramdown:
+  input: GFM
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
